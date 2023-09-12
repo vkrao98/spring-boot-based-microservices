@@ -8,7 +8,18 @@
     <artifactId>student-course-system</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
-
+    <properties>
+        <junit.platform.version>1.2.0</junit.platform.version>
+        <junit.jupiter.version>5.2.0</junit.jupiter.version>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <!--
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.organization>vkrao98</sonar.organization>
+        <sonar.projectKey>SJ_key</sonar.projectKey>
+        <sonar.login>3ec29276c1e1d3be60097cd4e7c40c47bb72f33c</sonar.login>
+        -->
+    </properties>
     <name>student-course-system</name>
     <description>Parent Pom for the student course registration system project</description>
 
